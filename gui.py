@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import filedialog, ttk
 from ultis import process_image, process_video, stream_from_camera
 
+
 class FaceAnonymizationApp:
     def __init__(self, root):
         self.root = root
